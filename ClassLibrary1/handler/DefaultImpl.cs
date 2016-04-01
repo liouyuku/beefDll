@@ -11,6 +11,8 @@ namespace BeefDLL.handler
 
         void MessageReceive.onSuccess(protocol.ProtocalPack pack)
         {
+
+            string s = pack.Content;
         }
 
         void MessageReceive.onFailed(protocol.ProtocalPack pack)
